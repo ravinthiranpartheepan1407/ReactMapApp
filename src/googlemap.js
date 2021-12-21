@@ -141,7 +141,7 @@ class MyGoogleMap extends Component {
                     onChildClick={() => console.log('child click')}
                     onClick={this._onClick}
                     bootstrapURLKeys={{
-                        key: 'AIzaSyCK08FjYTIq9fRGM8eJxPxWdcXkOqmkQDo',
+                        key: 'xxxx',
                         libraries: ['places', 'geometry'],
                     }}
                     yesIWantToUseGoogleMapApiInternals
