@@ -12,7 +12,23 @@
     "status": "false"
   },
   {
-    "psotcode": 0,
+    "postcode": 0,
     "status": "Bad request"
+  },
+  {
+    "postcode": 123 45,
+    "status": "Bad request"
+  },
+  {
+    "postcode": 12abc,
+    "status": "Bad request"
+  },
+  {
+    "postcode": 12244,
+    "status": "false"
+  },
+  {
+    "postcode": 12013,
+    "status": "false"
   }
 }

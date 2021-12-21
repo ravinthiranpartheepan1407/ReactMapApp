@@ -17,7 +17,7 @@ app.get('/api', function(req, res){
 })
 
 app.get("/", (req, res)=>{
-  res.sendFile(__dirname + '/src/app.js');
+  res.sendFile(__dirname + '/src/postcode.json');
 })
 
 app.post('/send', (req, res)=>{
@@ -30,7 +30,7 @@ app.post('/send', (req, res)=>{
 
     console.log("false");
   }
-  else if(req.body.name == 0 && 12345){
+  else if(req.body.name == 0 && 123_45){
     res.send("400 Bad Request");
     console.log("400 Bad Request");
   }
