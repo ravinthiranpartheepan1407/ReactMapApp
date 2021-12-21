@@ -13,8 +13,9 @@
   }
 }
 
+
 .App-header {
-  background-color: #282c34;
+  background-color: #370665;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,6 +25,9 @@
   color: white;
 }
 
+.menu{
+  magin-top: 50px;
+}
 .App-link {
   color: #61dafb;
 }

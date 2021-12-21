@@ -1,0 +1,18 @@
+{
+  {
+    "postcode": 12345,
+    "status": "true"
+  },
+  {
+    "postcode":01234,
+    "status": "true"
+  },
+  {
+    "postcode": 12346,
+    "status": "false"
+  },
+  {
+    "psotcode": 0,
+    "status": "Bad request"
+  }
+}
