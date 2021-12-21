@@ -158,7 +158,7 @@ class MyGoogleMap extends Component {
                 </GoogleMapReact>
 
                 <div className="info-wrapper">
-                    <div className="map-details">Latitude: <span>{this.state.status}</span></div>
+                    <div className="map-details">Auth Status: <span>{this.state.status}</span></div>
                     <div className="map-details">Post Code: <span>{this.state.address}</span></div>
                 </div>
 
