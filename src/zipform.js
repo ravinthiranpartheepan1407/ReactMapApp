@@ -9,7 +9,7 @@ const ZipForm = () => {
 
   const [result, setResult] = useState(null);
 
-  const sendEmail = event => {
+  const sendZipcode = event => {
     event.preventDefault();
     axios
       .post('http://localhost:4000/send', { ...state })
@@ -43,7 +43,7 @@ const ZipForm = () => {
           {result.message}
         </p>
       )}
-      <form onSubmit={sendEmail}>
+      <form onSubmit={sendZipcode}>
 
         <group controlId="name">
           <label>Zip Code</label>
