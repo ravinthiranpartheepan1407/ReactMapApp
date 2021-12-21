@@ -1,3 +1,29 @@
+## Docker Image Build
+git clone https://github.com/ravinthiranpartheepan1407/ReactMapApp.git
+
+docker-compose up -d --build [ It Will Open Localhost 3001 ]
+
+docker-compose stop
+
+
+## Steps to run nodejs backend
+
+git clone https://github.com/ravinthiranpartheepan1407/ReactMapApp.git
+
+docker-compose up -d --build (OR) Do "npm install" in the root folder of this project.
+
+If you use NPM then run command - nodemon beta.js for nodejs app and npm run start for reactapp
+
+Go to this herokuapp - https://secret-sea-32487.herokuapp.com/ (or) http://localhost:3000
+
+https://secret-sea-32487.herokuapp.com/postform (This page will be used for ZipCode validation) Please console log for zipcode verification status.
+
+HomePage - https://secret-sea-32487.herokuapp.com/ (This Page have autocomplete service for places) Please enable places api inorder to full functionality and also check console logs.
+
+App Test Case - Run Command npm run test (It will start craco test and npm script test) Jest Testing used.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
