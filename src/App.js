@@ -10,6 +10,7 @@ import Error from './error';
 import ReactDOM from 'react-dom';
 import HorizonTest from './apptest';
 import MyGoogleMap from './googlemap';
+import ZipForm from './zipform';
 function App() {
 
   return(
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/horizonapptest" element={<MyGoogleMap />}/>
         <Route path="/" element={<MapContainer />}/>
+        <Route path="/postform" element={<ZipForm />}/>
       </Routes>
       </Router>
 

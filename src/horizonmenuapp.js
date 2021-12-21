@@ -11,6 +11,9 @@ function HorizonApp(){
           &nbsp;
           &nbsp;
 
+          <NavLink id="txt-down" className="text-white text-right" to="/postform">Zip Validation</NavLink>
+          &nbsp;
+          &nbsp;
     </div>
   );
 }
